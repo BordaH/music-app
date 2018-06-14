@@ -9,6 +9,7 @@ script:
   - pid=$!
   - sleep 3
   - python -m unittest test.ArtistTestCase
+  - python -m unittest test.UserTestCase
   - kill -9 $pid
 services:
   - mysql

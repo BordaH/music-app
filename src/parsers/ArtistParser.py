@@ -7,3 +7,4 @@ def getArtistParser(artist):
                        'name': artist.name,
                        'lastName': artist.lastName,
                        'age': artist.age}})
+
