@@ -28,7 +28,7 @@ class AudioFilesTestCase(unittest.TestCase):
         self.assertTrue(res.__contains__('Music1'))
         self.assertTrue(res.__contains__('Music2'))
         self.assertFalse(res.__contains__('Cancion1'))
-        
+
     def tearDown(self):
         requests.delete('http://localhost:8080/apiv1/audiofile/Music1')
         requests.delete('http://localhost:8080/apiv1/audiofile/Music2')
