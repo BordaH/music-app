@@ -1,7 +1,5 @@
 [![Build Status](https://travis-ci.com/matiasmpereira/music-app.svg?branch=master)](https://travis-ci.com/matiasmpereira/music-app)
 
-# TP IISoft
-
 # MusicApp #
 
 ## Integrantes: 
@@ -14,17 +12,14 @@ Nro |   Nombre   | Legajo  | Mail
 4   |Brian Goldman |32565  |leonel89011@gmail.com
 5   |Matias Pereira|32390  |matiasmpereira@gmail.com
 
-# Sprint 0
-- Se hizo funcionar el servidor
-- Se realizó la primer implementación de la API para agregar, obtener y eliminar artistas del sistema.
+# Sprints
+ [Sprint1](./sprints/sprint1.md) 
 
-### Retrospectiva del Sprint
+ [Sprint2](./sprints/sprint2.md)
 
-Descubrimos la necesidad de nivelar o emparejar el nivel de conocimiento y manejo del lenguaje de programacion Python utilizado en éste proyecto.
+ [Sprint3](./sprints/sprint3.md)
 
-### Planificación para el próximo Sprint
-
-Se busca mejorar de, forma incremental, la funcionalidad implementada, atacando las primeras User Stories base, pertenecientes al Walking Skeleton del Visual Story Mapping de nuestro proyecto.
-
-A su vez, se busca sumar algunos User Story, planificados para el Sprint 2, orientados al agregado de albumes al sistema.
-
+ ## Enlaces
+  [Tablero en Trello del sprint Actual](https://trello.com/b/QoXXAIG5/music-app)
+  
+  [Visual Story Mapping](https://www.featuremap.co/maps/BrianLeoGoldman/Music-App)

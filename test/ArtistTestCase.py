@@ -23,7 +23,6 @@ class ArtistTestCase(unittest.TestCase):
 
 
     def tearDown(self):
-
         requests.delete('http://localhost:8080/apiv1/artist/JoseYYY')
 
 

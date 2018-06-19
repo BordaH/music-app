@@ -10,6 +10,10 @@ script:
   - sleep 3
   - python -m unittest test.ArtistTestCase
   - python -m unittest test.UserTestCase
+  - python -m unittest test.AudioFileTestCase
+  - python -m unittest test.AlbumTestCase
+  - python -m unittest test.PlaylistTestCase
+
   - kill -9 $pid
 services:
   - mysql
